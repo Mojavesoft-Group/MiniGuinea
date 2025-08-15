@@ -5,8 +5,6 @@ MiniGuinea is a simple Chromium extension that:
 - Does not require manual user intervention
 - Avoids interfering with the user experience as much as possible
 
-MiniGuinea is not commercialized and does not have an "acceptable ads" policy.
-
 # Basic ideas behind MiniGuinea
 The idea that fuels MiniGuinea is very simple. If most people use an adblocker, then there will be little financial incentive for advertising platforms to continue operating. Unfortunately, most of the easy-to-use adblockers participate in conflicts of interest or do not work well in Manifest v3. MiniGuinea solves this issue. It works on most modern Chromium browsers (Chrome, Edge, etc.) and requires zero configuration after being installed.
 
@@ -14,3 +12,10 @@ The idea that fuels MiniGuinea is very simple. If most people use an adblocker, 
 The name MiniGuinea is inspired by the _guinea fowl_, a bird renowned for its ability to consume ticks in large numbers. MiniGuinea consumes lots of trackers, hence the name _MiniGuinea_.
 
 
+## MiniGuinea is a brutal ad blocker
+MiniGuinea has a policy of being a [brutal ad blocker](https://web.archive.org/web/20250711013948/https://www.ad-shield.io/blog/who-are-the-brutal-adblockers). MiniGuinea is fighting a war to help drive the ad companies out of business, no matter what that means for publishers.
+
+### There are other ways to make money
+In July 2025, Cloudflare announced pay-per-crawl. This is a method where LLM crawling pay to get training data from newspapers, blogs, and other sources. If this strategy succeeds at the same time as ad blockers do, then media companies will be forced to provide free, readable content to everyone. If the companies resist, then people will read LLM-generated summaries instead.
+
+Under this model, both the consumers and the various companies will benefit greatly.
