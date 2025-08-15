@@ -13,7 +13,7 @@ The name MiniGuinea is inspired by the _guinea fowl_, a bird renowned for its ab
 
 
 ## MiniGuinea is a brutal ad blocker
-MiniGuinea has a policy of being a [brutal ad blocker](https://web.archive.org/web/20250711013948/https://www.ad-shield.io/blog/who-are-the-brutal-adblockers). MiniGuinea is fighting a war to help drive the ad companies out of business, no matter what that means for publishers.
+MiniGuinea has a policy of being a [brutal ad blocker](https://web.archive.org/web/20250711013948/https://www.ad-shield.io/blog/who-are-the-brutal-adblockers). This means that MiniGuinea is fighting a war to help drive the ad companies out of business, no matter what that means for publishers.
 
 ### There are other ways to make money
 In July 2025, Cloudflare announced pay-per-crawl. This is a method where LLM crawling pay to get training data from newspapers, blogs, and other sources. If this strategy succeeds at the same time as ad blockers do, then media companies will be forced to provide free, readable content to everyone. If the companies resist, then people will read LLM-generated summaries instead.
