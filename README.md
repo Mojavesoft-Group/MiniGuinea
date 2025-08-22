@@ -1,4 +1,6 @@
 # MiniGuinea
+<img width="128" height="128" alt="17558778127483925235314353808994" src="https://github.com/user-attachments/assets/6cb72e00-cf3a-4d79-a7b6-14bc73c39ded" />
+
 MiniGuinea is a simple Chromium extension that:
 - Stops dozens of ad providers from serving their ads; including but not limited to Google Doubleclick, Amazon Advertising, and CoinZilla
 - Defeats several different analytics providers, most notably Google Analytics (not fully functional at the moment), Cloudflare Insights, and the United States Digital Analytics Program
