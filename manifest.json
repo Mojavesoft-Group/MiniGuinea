@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "MiniGuinea",
+  "version": "0.0.1",
+  "description": "A simple ad blocker that uses Manifest v3.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+
+  "icons": {
+   "16": "16.png",
+   "32": "32.png",
+   "48": "48.png",
+   "128": "128.png"
+ },
+
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset1",
+      "enabled": true,
+      "path": "ruleset1.json"
+    }]
+  }
+}
