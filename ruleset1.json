@@ -305,7 +305,7 @@
     "id": 26,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest", "script"],
+      "resourceTypes": ["xmlhttprequest", "script", "image"],
       "urlFilter": "||sb.scorecardresearch.com"
     },
     "action": {
@@ -899,6 +899,102 @@
     "condition": {
       "resourceTypes": ["script"],
       "urlFilter": "||dap.digitalgov.gov"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 76,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||s-onetag.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 77,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||demdex.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 78,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cdn*.optimizely.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 79,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||atlas.ngtv.io"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 80,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||optimizely-cmp-analytics.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 81,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||learn.optimizely.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 82,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||js.monitor.azure.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 83,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||dc.services.visualstudio.com"
     },
     "action": {
       "type": "block"
