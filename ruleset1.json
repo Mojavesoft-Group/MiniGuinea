@@ -999,5 +999,17 @@
     "action": {
       "type": "block"
     }
+ },
+
+ {
+    "id": 84,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||webhooks.fivetran.com"
+    },
+    "action": {
+      "type": "block"
+    }
  }
 ]
