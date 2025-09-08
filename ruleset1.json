@@ -1005,11 +1005,13 @@
     "id": 84,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest"],
-      "urlFilter": "||webhooks.fivetran.com"
+      "resourceTypes": ["script"],
+      "urlFilter": "||delivery.revcontent.com"
     },
     "action": {
       "type": "block"
     }
  }
+
+
 ]
