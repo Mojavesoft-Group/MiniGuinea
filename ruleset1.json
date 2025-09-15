@@ -1011,6 +1011,42 @@
     "action": {
       "type": "block"
     }
+ },
+
+ {
+    "id": 85,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||stats.wp.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 86,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||static.hotjar.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 87,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest", "other", "script"],
+      "urlFilter": "||heap-api.com"
+    },
+    "action": {
+      "type": "block"
+    }
  }
 
 
