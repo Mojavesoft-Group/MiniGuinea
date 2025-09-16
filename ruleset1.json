@@ -1047,7 +1047,30 @@
     "action": {
       "type": "block"
     }
- }
+ },
 
+{
+    "id": 88,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||snigelweb.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+{
+    "id": 89,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||flashb.id"
+    },
+    "action": {
+      "type": "block"
+    }
+ }
 
 ]
