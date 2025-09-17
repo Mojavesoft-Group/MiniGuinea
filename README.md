@@ -29,6 +29,13 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | DoubleVerify   | Yes         | Yes        | Yes       |
 | Amazon Adsystem   | Yes       | Yes       | Yes**        |********
 
+## Special considerations
+| Blocking software     | Permissions | Storage space | Software license | Primary source of revenue | Uses telemetry? |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| MiniGuinea      | Block content on any page       | ~0.04MB      | MIT        | None (hobby project) | No |
+| AdBlock   | Read and change all your data on all websites, display notifications         | 299MB        | GPLv3 | Acceptable Ads program | Yes |  
+| Ghostery  | Read your browsing history, block content on any page       | 49.8MB       | GPLv3        | Donations | Yes |********
+
 *MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
 
 ** Ghostery appears to be injecting its own script here. More information is needed.
