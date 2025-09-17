@@ -19,7 +19,8 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | Qualtrics   | Yes         | No        | Yes       |
 | Digital Analytics Program   | Yes        | No       | Yes        |
 | Cloudflare Insights   | Yes        | No       | Yes        |
-| Jetpack Analytics   | Partially blocked        | No       | Yes        |
+| Jetpack Analytics   | Yes       | No       | Yes        |
+| Wikitide Analytics (based on Matomo)   | Coming soon in 0.3.0       | No       | Yes        |****
 
 *MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
 
