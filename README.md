@@ -19,7 +19,8 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | Qualtrics   | Yes         | No        | Yes       |
 | Digital Analytics Program   | Yes        | No       | Yes        |
 | Cloudflare Insights   | Yes        | No       | Yes        |
+| Jetpack Analytics   | Partially blocked        | No       | Yes        |
 
 *MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
 
-** Ghostery appears to be injecting its own analytics solution here??
+** Ghostery appears to be injecting its own script here. More information is needed.
