@@ -23,11 +23,11 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | Wikitide Analytics (based on Matomo)   | Coming soon in 0.3.0       | No       | Yes        |****
 
 ## Ad blocking ability
-| Tracker     | Blocked by MiniGuinea? | Blocked by AdBlock? | Blocked by Ghostery? |
+| Ad provider     | Blocked by MiniGuinea? | Blocked by AdBlock? | Blocked by Ghostery? |
 | ----------- | ----------- | ----------- | ----------- |
-| DoubleClick      | Yes       | No        | Yes**        |
-| Qualtrics   | Yes         | Yes        | Yes       |
-| Wikitide Analytics (based on Matomo)   | Coming soon in 0.3.0       | No       | Yes        |********
+| DoubleClick      | Yes       | Yes (acceptable ads must be disabled before it will work)        | Yes**        |
+| DoubleVerify   | Yes         | Yes        | Yes       |
+| Amazon Adsystem   | Yes       | Yes       | Yes**        |********
 
 *MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
 
