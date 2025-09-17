@@ -11,3 +11,15 @@ MiniGuinea is known to work in Chromium, Google Chrome, and Microsoft Edge. It s
 
 MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Browser, etc.) at the moment. Firefox support is not planned for the foreseeable future.
  
+# Comparison to other ad blockers
+## Tracker blocking ability
+| Tracker     | Blocked by MiniGuinea? | Blocked by AdBlock? | Blocked by Ghostery? |
+| ----------- | ----------- | ----------- | ----------- |
+| Google Analytics      | Yes*       | No        | Yes**        |
+| Qualtrics   | Yes         | No        | Yes       |
+| Digital Analytics Program   | Yes        | No       | Yes        |
+| Cloudflare Insights   | Yes        | No       | Yes        |
+
+*MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
+
+** Ghostery appears to be injecting its own analytics solution here??
