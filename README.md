@@ -22,6 +22,13 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | Jetpack Analytics   | Yes       | No       | Yes        |
 | Wikitide Analytics (based on Matomo)   | Coming soon in 0.3.0       | No       | Yes        |****
 
+## Ad blocking ability
+| Tracker     | Blocked by MiniGuinea? | Blocked by AdBlock? | Blocked by Ghostery? |
+| ----------- | ----------- | ----------- | ----------- |
+| DoubleClick      | Yes       | No        | Yes**        |
+| Qualtrics   | Yes         | Yes        | Yes       |
+| Wikitide Analytics (based on Matomo)   | Coming soon in 0.3.0       | No       | Yes        |********
+
 *MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
 
 ** Ghostery appears to be injecting its own script here. More information is needed.
