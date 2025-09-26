@@ -1289,5 +1289,66 @@
     "action": {
       "type": "block"
     }
+ },
+
+ {
+    "id": 108,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 109,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://s1.hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 110,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "https://data.bilibili.com/v2/log/web"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 111,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "https://data.bilibili.com/log/web"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 112,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "https://api.bilibili.com/x/web-frontend/data/report"
+    },
+    "action": {
+      "type": "block"
+    }
  }
+
 ]
