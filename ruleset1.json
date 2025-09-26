@@ -109,12 +109,14 @@
       "type": "block"
     }
  },
+
  {
     "id": 10,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest", "script"],
-      "urlFilter": "||analytics.google.com"
+      "resourceTypes": ["script"],
+      "urlFilter": "||xuv.etherscan.com",
+      "excludedInitiatorDomains": ["xuv.etherscan.com"]
     },
     "action": {
       "type": "block"
@@ -352,7 +354,7 @@
     "id": 30,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest", "image"],
+      "resourceTypes": ["xmlhttprequest", "image", "sub_frame", "ping"],
       "urlFilter": "||adnxs.com"
     },
     "action": {
@@ -400,7 +402,7 @@
     "id": 34,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest"],
+      "resourceTypes": ["xmlhttprequest", "script"],
       "urlFilter": "||ib.adnxs.com"
     },
     "action": {
@@ -1071,6 +1073,221 @@
     "action": {
       "type": "block"
     }
- }
+ },
 
+ {
+    "id": 90,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||analytics.wikitide.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 91,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "||pixel.wp.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 92,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cdn.adsninja.ca"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 93,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cdn.sentinelpro.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 94,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://www.google-analytics.com/analytics.js"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 95,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||static.klaviyo.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 96,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||clarity.ms"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 97,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||tracking.hyros.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 98,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||clarity.ms"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 99,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||adsdkprod.azureedge.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 100,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||adsdk.bing.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 101,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||adsdk.microsoft.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 102,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["ping"],
+      "urlFilter": "||browser.events.data.msn.com/OneCollector/1.0"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 103,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "||bing.com/aes/c.gif"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 104,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "||bing.com/api/v1/mediation/tracking"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 105,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "||shftr.adnxs.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 106,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image", "xmlhttprequest"],
+      "urlFilter": "||srtb.msn.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 107,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||assets.msn.com/content/v1/cms/api/amp/Document/"
+    },
+    "action": {
+      "type": "block"
+    }
+ }
 ]
