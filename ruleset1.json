@@ -1223,7 +1223,7 @@
     "id": 102,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["ping"],
+      "resourceTypes": ["ping", "xmlhttprequest"],
       "urlFilter": "||browser.events.data.msn.com/OneCollector/1.0"
     },
     "action": {
@@ -1349,6 +1349,53 @@
     "action": {
       "type": "block"
     }
- }
+ },
 
+ {
+    "id": 113,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||teams.events.data.microsoft.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 114,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest", "ping"],
+      "urlFilter": "https://play.google.com/log*"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 115,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "https://mail.google.com/mail/u/0/jserror*"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 116,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||mail-ads.google.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ }
 ]
