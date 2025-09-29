@@ -20,7 +20,7 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | Digital Analytics Program   | Yes        | No       | Yes        |
 | Cloudflare Insights   | Yes        | No       | Yes        |
 | Jetpack Analytics   | Yes       | No       | Yes        |
-| Wikitide Analytics (based on Matomo)   | Coming in 0.3.0       | No       | Yes        |****
+| Wikitide Analytics (based on Matomo)   | Yes (requires 0.3.0 Alpha)      | No       | Yes        |****
 
 ## Ad blocking ability
 | Ad provider     | Blocked by MiniGuinea? | Blocked by AdBlock? | Blocked by Ghostery? |
