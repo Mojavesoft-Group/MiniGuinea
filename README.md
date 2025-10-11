@@ -32,7 +32,7 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 ## Special considerations
 | Blocking software     | Permissions | Storage space | Software license | Primary source of revenue | Uses telemetry? |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| MiniGuinea      | Block content on any page       | ~0.02MB      | MIT        | None (hobby project) | No |
+| MiniGuinea      | Block content on any page       | ~0.03MB      | MIT        | None (hobby project) | No |
 | AdBlock   | Read and change all your data on all websites, display notifications         | 299MB        | GPLv3 | Acceptable Ads program | Yes |  
 | Ghostery  | Read your browsing history, block content on any page       | 49.8MB       | GPLv3        | Donations | Yes |********
 
