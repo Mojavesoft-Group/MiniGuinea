@@ -199,7 +199,7 @@
     "id": 17,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest", "script"],
+      "resourceTypes": ["xmlhttprequest", "script", "sub_frame"],
       "urlFilter": "||criteo.com"
     },
     "action": {
@@ -247,7 +247,7 @@
     "id": 21,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest"],
+      "resourceTypes": ["xmlhttprequest", "script", "sub_frame"],
       "urlFilter": "||ad.gt"
     },
     "action": {
@@ -451,7 +451,7 @@
     "id": 38,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest", "script"],
+      "resourceTypes": ["xmlhttprequest", "script", "sub_frame"],
       "urlFilter": "||ads.pubmatic.com"
     },
     "action": {
@@ -475,7 +475,7 @@
     "id": 40,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest"],
+      "resourceTypes": ["xmlhttprequest", "sub_frame"],
       "urlFilter": "||smilewanted.com"
     },
     "action": {
@@ -1397,5 +1397,358 @@
     "action": {
       "type": "block"
     }
+ },
+
+ {
+    "id": 117,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||analytics.tiktok.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 118,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cdn.rudderlabs.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 119,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["ping", "xmlhttprequest"],
+      "urlFilter": "||browser-intake-datadoghq.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 120,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||bat.bing.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 121,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cdn.amplitude.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 122,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cdn.segment.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 123,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "https://www.facebook.com/tr/*"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 124,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/*"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 125,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://dev.visualwebsiteoptimizer.com/cdn/7.0/track*.js"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 126,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://dev.visualwebsiteoptimizer.com/7.0/track*.js"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 127,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image", "ping"],
+      "urlFilter": "||dev.visualwebsiteoptimizer.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 128,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||adlightning.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 129,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest", "image"],
+      "urlFilter": "||alb.reddit.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 130,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "https://www.redditstatic.com/shreddit/assets/pix/ads/"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 131,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "https://www.redditstatic.com/svc/shreddit/events"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 132,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "||rlcdn.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 133,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||widgets.outbrain.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 134,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["sub_frame", "script", "image"],
+      "urlFilter": "||p7cloud.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 135,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||hadronid.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+
+ {
+    "id": 136,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||openweb.bid"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 137,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||prebid.deepintent.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 138,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "||match.deepintent.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+
+
+ {
+    "id": 139,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image", "xmlhttprequest", "ping"],
+      "urlFilter": "||pix.spot.im"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 140,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script", "xmlhttprequest"],
+      "urlFilter": "||bqstreamer.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 141,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||amxrtb.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+
+{
+    "id": 142,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["sub_frame"],
+      "urlFilter": "||eb2.3lift.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 143,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||amxrtb.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 144,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||getclicky.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 145,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cdn.usefathom.com"
+    },
+    "action": {
+      "type": "block"
+    }
  }
+
 ]
