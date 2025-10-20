@@ -1632,7 +1632,7 @@
     "id": 136,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["script"],
+      "resourceTypes": ["script", "other"],
       "urlFilter": "||openweb.bid"
     },
     "action": {
@@ -1749,6 +1749,211 @@
     "action": {
       "type": "block"
     }
- }
+ },
 
+ {
+    "id": 146,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script", "xmlhttprequest"],
+      "urlFilter": "||googleadservices.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 147,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||cxense.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 148,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||omappapi.com",
+      "excludedInitiatorDomains": ["optinmonster.com"]
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 149,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "https://www.google.com/pagead/"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 150,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "https://www.google.com/ccm/collect"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 151,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script", "xmlhttprequest"],
+      "urlFilter": "https://*.html-load.cc/player/*"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 152,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||parsely.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 153,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||experience.piano.io"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 154,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script", "image"],
+      "urlFilter": "||ad-delivery.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 155,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||assets.bounceexchange.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 156,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||script.ac"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 157,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||script.ac"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 158,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||js-agent.newrelic.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 159,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["ping"],
+      "urlFilter": "||collector.github.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 160,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://www.cryptocompare.com/scripts/prebid.js"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 161,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||hb.openwebmp.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 162,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||direct-events-collector.spot.im"
+    },
+    "action": {
+      "type": "block"
+    }
+ }
+ 
 ]
