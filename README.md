@@ -39,3 +39,8 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 *MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
 
 ** Ghostery appears to be injecting its own script here. More information is needed.
+
+# Known issues
+On MiniGuinea v0.1, there is a missing icon file which makes installation impossible. Starting with MiniGuinea v0.2, all of the icon files are in place.
+
+In all current versions of MiniGuinea, you cannot view your Google Analytics dashboard properly. A fix was made during early development, but somehow got dropped from the codebase before v0.1 was released. An improved fix will be available in v0.6 and later.
