@@ -77,7 +77,8 @@
     "priority": 1,
     "condition": {
       "resourceTypes": ["xmlhttprequest", "script"],
-      "urlFilter": "||analytics.google.com"
+      "urlFilter": "||analytics.google.com",
+      "excludedInitiatorDomains": ["analytics.google.com"]
     },
     "action": {
       "type": "block"
@@ -343,7 +344,7 @@
     "priority": 1,
     "condition": {
       "resourceTypes": ["xmlhttprequest"],
-      "urlFilter": "||prebid-server.rubiconproject.com"
+      "urlFilter": "||rubiconproject.com"
     },
     "action": {
       "type": "block"
@@ -1954,6 +1955,65 @@
     "action": {
       "type": "block"
     }
+ },
+
+ {
+    "id": 163,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["ping"],
+      "urlFilter": "||log.cookieyes.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 164,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||snidigital.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 165,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||adobedtm.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 166,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["ping"],
+      "urlFilter": "||incoming.telemetry.mozilla.org"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 167,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["ping"],
+      "urlFilter": "|https://developer.mozilla.org/pong/viewed*"
+    },
+    "action": {
+      "type": "block"
+    }
  }
- 
 ]
