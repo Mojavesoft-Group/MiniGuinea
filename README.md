@@ -2,7 +2,7 @@
 <img width="128" height="128" alt="17558778127483925235314353808994" src="https://github.com/user-attachments/assets/6cb72e00-cf3a-4d79-a7b6-14bc73c39ded" />
 
 MiniGuinea is a simple Chromium extension that:
-- Stops dozens of ad providers from serving their ads; including but not limited to Google Doubleclick, Amazon Advertising, and CoinZilla
+- Stops dozens of ad providers from serving their ads to your browser; including but not limited to Google Doubleclick, Amazon Advertising, and CoinZilla
 - Defeats several different analytics providers, most notably Google Analytics (not fully functional at the moment), Cloudflare Insights, and the United States Digital Analytics Program
 - Uses Manifest v3 (if you don't know what this means, don't worry about it)
 - Avoids interfering with the user experience as much as possible
@@ -43,4 +43,4 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 # Known issues
 On MiniGuinea v0.1, there is a missing icon file which makes installation impossible. Starting with MiniGuinea v0.2, all of the icon files are in place.
 
-In all current versions of MiniGuinea, you cannot view your Google Analytics dashboard properly. A fix was made during early development, but somehow got dropped from the codebase before v0.1 was released. An improved fix will be available in v0.6 and later.
+In MiniGuinea versions predating v0.6, you cannot view your Google Analytics dashboard properly. A fix was made during early development, but somehow got dropped from the codebase before v0.1 was released. An improved fix is available in v0.6 and later.
