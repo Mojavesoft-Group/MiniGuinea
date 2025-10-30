@@ -28,6 +28,7 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | DoubleClick      | Yes       | Yes (acceptable ads must be disabled before it will work)        | Yes**        |
 | DoubleVerify   | Yes         | Yes        | Yes       |
 | Amazon Adsystem   | Yes       | Yes       | Yes**        |********
+| Outbrain   | Yes       | Hidden but not blocked       | Partially        |
 
 ## Special considerations
 | Blocking software     | Permissions | Storage space | Software license | Primary source of revenue | Uses telemetry? |
