@@ -343,7 +343,7 @@
     "id": 29,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["xmlhttprequest"],
+      "resourceTypes": ["xmlhttprequest", "image"],
       "urlFilter": "||rubiconproject.com"
     },
     "action": {
@@ -875,7 +875,7 @@
     "id": 73,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["image"],
+      "resourceTypes": ["image", "xmlhttprequest"],
       "urlFilter": "||lijit.com",
       "excludedInitiatorDomains": ["lijit.com"]
     },
@@ -1596,8 +1596,8 @@
     "id": 133,
     "priority": 1,
     "condition": {
-      "resourceTypes": ["script"],
-      "urlFilter": "||widgets.outbrain.com"
+      "resourceTypes": ["ping"],
+      "urlFilter": "||openweb.bid"
     },
     "action": {
       "type": "block"
@@ -2010,7 +2010,223 @@
     "priority": 1,
     "condition": {
       "resourceTypes": ["ping"],
-      "urlFilter": "|https://developer.mozilla.org/pong/viewed*"
+      "urlFilter": "https://developer.mozilla.org/pong/viewed*"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 168,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||ezoic.net"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 169,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||ezodn.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 170,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||ezojs.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 171,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||plausible.piskelapp.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 172,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||aditude.io"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 173,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||smartadserver.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 174,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||btlr.sharethrough.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 175,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||t.nypost.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 176,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||casalemedia.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 177,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest", "sub_frame"],
+      "urlFilter": "||ads.yieldmo.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 178,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||rtb.voltaxam.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 179,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest", "image"],
+      "urlFilter": "||tr.thecontentserver.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 180,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||pl.thecontentserver.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 181,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||player-prediction.voltaxservices.io"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 182,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||stickyadstv.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 183,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||capi.connatix.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 184,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "||imasdk.googleapis.com"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 185,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://widgets.outbrain.com/outbrain.js*"
     },
     "action": {
       "type": "block"
