@@ -3,7 +3,7 @@
 
 MiniGuinea is a simple Chromium extension that:
 - Stops dozens of ad providers from serving their ads to your browser; including but not limited to Google Doubleclick, Amazon Advertising, and CoinZilla
-- Defeats several different analytics providers, most notably Google Analytics (not fully functional at the moment), Cloudflare Insights, and the United States Digital Analytics Program
+- Defeats several different analytics providers, most notably Google Analytics, Cloudflare Insights, and the United States Digital Analytics Program
 - Uses Manifest v3 (if you don't know what this means, don't worry about it)
 - Avoids interfering with the user experience as much as possible
 - Makes some websites load faster by blocking unwanted web requests
@@ -16,7 +16,7 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 ## Tracker blocking ability
 | Tracker     | Blocked by MiniGuinea? | Blocked by AdBlock? | Blocked by Ghostery? |
 | ----------- | ----------- | ----------- | ----------- |
-| Google Analytics      | Yes*       | No        | Yes**        |
+| Google Analytics      | Yes       | No        | Yes*        |
 | Qualtrics   | Yes         | No        | Yes       |
 | Digital Analytics Program   | Yes        | No       | Yes        |
 | Cloudflare Insights   | Yes        | No       | Yes        |
@@ -26,9 +26,9 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 ## Ad blocking ability
 | Ad provider     | Blocked by MiniGuinea? | Blocked by AdBlock? | Blocked by Ghostery? |
 | ----------- | ----------- | ----------- | ----------- |
-| DoubleClick      | Yes       | Yes (acceptable ads must be disabled before it will work)        | Yes**        |
+| DoubleClick      | Yes       | Yes (acceptable ads must be disabled before it will work)        | Yes*        |
 | DoubleVerify   | Yes         | Yes        | Yes       |
-| Amazon Adsystem   | Yes       | Yes       | Yes**        |********
+| Amazon Adsystem   | Yes       | Yes       | Yes*        |********
 | Outbrain   | Yes       | Hidden but not blocked       | Partially        |
 
 ## Special considerations
@@ -38,9 +38,7 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | AdBlock   | Read and change all your data on all websites, display notifications         | 299MB        | GPLv3 | Acceptable Ads program | Yes |  
 | Ghostery  | Read your browsing history, block content on any page       | 49.8MB       | GPLv3        | Donations | Yes |********
 
-*MiniGuinea may fail to block some instances of this tracker, but it stops it most of the time.
-
-** Ghostery appears to be injecting its own script here. More information is needed.
+* Ghostery appears to be injecting its own script here. More information is needed.
 
 # Known issues
 On MiniGuinea v0.1, there is a missing icon file which makes installation impossible. Starting with MiniGuinea v0.2, all of the icon files are in place.
