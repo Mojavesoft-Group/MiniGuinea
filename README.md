@@ -6,7 +6,7 @@ MiniGuinea is a simple Chromium extension that:
 - Defeats several different analytics providers, most notably Google Analytics (not fully functional at the moment), Cloudflare Insights, and the United States Digital Analytics Program
 - Uses Manifest v3 (if you don't know what this means, don't worry about it)
 - Avoids interfering with the user experience as much as possible
-- Makes some websites load faster by blocking unwanted web requests (see above bullet points)
+- Makes some websites load faster by blocking unwanted web requests
 
 MiniGuinea is known to work in Chromium, Google Chrome, and Microsoft Edge. It should function properly in most other Chromium browsers too.
 
