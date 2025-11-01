@@ -38,7 +38,7 @@ MiniGuinea does not officially support Firefox-based browsers (Firefox, Tor Brow
 | AdBlock   | Read and change all your data on all websites, display notifications         | 299MB        | GPLv3 | Acceptable Ads program | Yes |  
 | Ghostery  | Read your browsing history, block content on any page       | 49.8MB       | GPLv3        | Donations | Yes |********
 
-* Ghostery appears to be injecting its own script here. More information is needed.
+*Ghostery appears to be injecting its own script here. More information is needed.
 
 # Known issues
 On MiniGuinea v0.1, there is a missing icon file which makes installation impossible. Starting with MiniGuinea v0.2, all of the icon files are in place.
