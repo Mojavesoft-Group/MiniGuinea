@@ -2231,5 +2231,41 @@
     "action": {
       "type": "block"
     }
+ },
+
+ {
+    "id": 186,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["script"],
+      "urlFilter": "https://archive.org/includes/athena.js*"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 187,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["image"],
+      "urlFilter": "||athena.archive.org"
+    },
+    "action": {
+      "type": "block"
+    }
+ },
+
+ {
+    "id": 188,
+    "priority": 1,
+    "condition": {
+      "resourceTypes": ["xmlhttprequest"],
+      "urlFilter": "||error-tracking.reddit.com"
+    },
+    "action": {
+      "type": "block"
+    }
  }
 ]
